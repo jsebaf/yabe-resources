@@ -27,18 +27,18 @@ Ejemplo de utilización de un chatbot web como asistencia al desarrollo y análi
 - Selección de proveedores y modelos.
 - Flujos de interacción con el modelo: interacciones simples y procesos de varios pasos.
 
-### Primer ejemplo
+### Primeros pasos
 
-- Instalación y configuración de OpenCode.
 - Trabajo sobre un proyecto existente.
 - Exploración del proyecto mediante el agente.
 - Modificación del proyecto y ejecución de acciones mediante herramientas.
 - Análisis de las interacciones entre el agente y el modelo.
-- Anatomía de una conversación de varios pasos.
-- Fuentes de contexto en OpenCode: *prompt*, conversación e instrucciones específicas del proyecto.
+- Trabajo en un proyecto nuevo.
+- Planificación e implementación.
+- Ejemplo simple de una iteración.
 
 
-| Tema                                     | Artefacto                                                      |
+|                                          | Artefacto                                                      |
 | ---------------------------------------- | -------------------------------------------------------------- |
 | ¿Qué es un agente de IA y cómo funciona? | OpenCode instalado y primer proyecto modificado por el agente. |
 
