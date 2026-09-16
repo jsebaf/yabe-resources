@@ -37,11 +37,9 @@ Ejemplo de utilización de un chatbot web como asistencia al desarrollo y análi
 - Planificación e implementación.
 - Ejemplo simple de una iteración.
 
-
 |                                          | Artefacto                                                      |
 | ---------------------------------------- | -------------------------------------------------------------- |
 | ¿Qué es un agente de IA y cómo funciona? | OpenCode instalado y primer proyecto modificado por el agente. |
-
 
 ---
 
@@ -51,7 +49,7 @@ Ejemplo de utilización de un chatbot web como asistencia al desarrollo y análi
 
 - Explicación del proyecto desde un punto de vista funcional: un motor de reservas de hotel. Listado de requisitos funcionales.
 - Explicación de la arquitectura propuesta: un servicio en Laravel que expone una API autenticada para la creación, modificación y consulta de reservas de hotel.
-- Ejemplo de interfaz de usuario: una aplicación web sencilla en React con shadcn/ui.
+- Ejemplo de interfaz de usuario: una aplicación web sencilla en React con Tailwind CSS.
 - Esquema de seguridad para la comunicación entre la UI y la API.
 - Persistencia mediante una base de datos PostgreSQL.
 
@@ -65,11 +63,9 @@ Explicación de un modelo de trabajo en el que las *features* se documentarán e
 - Primera aproximación a la implementación del flujo de trabajo definido anteriormente mediante reglas de OpenCode.
 - Implementación de un conjunto inicial de *features* utilizando la aproximación anterior.
 
-
 | Tema                                                           | Artefacto                                                                        |
 | -------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | ¿Cómo hacemos que el agente trabaje dentro de nuestro proceso? | Proyecto Laravel, flujo de trabajo definido y primeras *features* implementadas. |
-
 
 ---
 
@@ -90,26 +86,13 @@ Explicación de un modelo de trabajo en el que las *features* se documentarán e
 - Utilización de MCP dentro del flujo de trabajo.
 - Implementación de las *features* correspondientes a la UI con la asistencia de MCP.
 
-
 | Tema                                                        | Artefacto                                                                     |
 | ----------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | ¿Cómo automatizamos y ampliamos las capacidades del agente? | Flujo de trabajo automatizado y aplicación completa, incluyendo backend y UI. |
 
-
 ---
 
 ## Sesión 4
-
-### Aprovisionamiento y despliegue
-
-Aplicación de las herramientas y conceptos trabajados en las sesiones anteriores para extender el uso del agente al ciclo de vida de despliegue de la aplicación.
-
-- Descripción de la infraestructura necesaria para ejecutar la aplicación.
-- Definición del aprovisionamiento de la infraestructura como código.
-- Utilización del agente para analizar, diseñar e implementar la infraestructura.
-- Automatización del proceso de construcción y despliegue de la aplicación.
-- Integración del despliegue en el flujo de trabajo del proyecto.
-- Análisis de la capacidad del agente para trabajar sobre sistemas que van más allá del código de la aplicación.
 
 ### Implementación de un agente para el análisis de datos
 
@@ -122,11 +105,20 @@ Planteamiento de una necesidad de negocio que requiera obtener información de l
 - Diseño e implementación de una herramienta para la presentación de los resultados.
 - Utilización del agente para realizar el análisis y obtener información a partir de los datos.
 
+### Aprovisionamiento y despliegue
+
+Aplicación de las herramientas y conceptos trabajados en las sesiones anteriores para extender el uso del agente al ciclo de vida de despliegue de la aplicación.
+
+- Descripción de la infraestructura necesaria para ejecutar la aplicación.
+- Definición del aprovisionamiento de la infraestructura como código.
+- Utilización del agente para analizar, diseñar e implementar la infraestructura.
+- Automatización del proceso de construcción y despliegue de la aplicación.
+- Integración del despliegue en el flujo de trabajo del proyecto.
+- Análisis de la capacidad del agente para trabajar sobre sistemas que van más allá del código de la aplicación.
 
 | Tema                                                                                   | Artefacto                                                                                                                                                            |
 | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ¿Hasta dónde podemos extender el uso del agente fuera del desarrollo de la aplicación? | Aplicación desplegada automáticamente e infraestructura gestionada mediante código. Agente de análisis de datos con acceso a las fuentes de información del sistema. |
-
 
 ---
 
@@ -144,9 +136,6 @@ Aplicación del agente al diagnóstico y resolución de problemas sobre un siste
 - Utilización del agente como asistente para el diagnóstico de problemas.
 - Relación entre observabilidad, troubleshooting y ciclo de desarrollo.
 
-
 | Tema                                                                                | Artefacto                                                                                                 |
 | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | ¿Cómo utilizamos un agente para entender y solucionar problemas en un sistema real? | Sistema desplegado con observabilidad básica y un flujo de generación, detección y análisis de problemas. |
-
-

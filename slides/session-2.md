@@ -106,7 +106,7 @@ Motor de reservas de hotel
 
 ```mermaid +render +width:70%
 flowchart LR
-    F[Frontend<br/>React + shadcn/ui]
+    F[Frontend<br/>React + Tailwind]
     B[Backend<br/>Laravel]
     DB[(PostgreSQL)]
 
