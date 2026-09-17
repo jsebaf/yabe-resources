@@ -117,21 +117,3 @@ sequenceDiagram
 
 <!-- end_slide -->
 
-MCP
-===
-
-> ​
-> ​ **MCP (Model Context Protocol)** es un protocolo que permite conectar un agente con herramientas y fuentes de información externas.
-> ​
-
-<!-- new_lines: 4 -->
-
-```mermaid +render +width:60%
-flowchart LR
-    A[Agente]
-    M[MCP Server]
-
-    M -->|Herramientas y recursos| A
-    A -->|MCP| M
-```
-

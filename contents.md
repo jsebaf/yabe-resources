@@ -79,13 +79,6 @@ Explicación de un modelo de trabajo en el que las *features* se documentarán e
 - Evolución del flujo definido en la sesión anterior hacia un proceso más sistemático y reutilizable.
 - Implementación de las *features* restantes del backend utilizando el flujo de trabajo automatizado.
 
-### MCP
-
-- Concepto de MCP y necesidad de ampliar las capacidades del agente mediante herramientas y fuentes de información externas.
-- Configuración de servidores MCP en OpenCode.
-- Utilización de MCP dentro del flujo de trabajo.
-- Implementación de las *features* correspondientes a la UI con la asistencia de MCP.
-
 | Tema                                                        | Artefacto                                                                     |
 | ----------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | ¿Cómo automatizamos y ampliamos las capacidades del agente? | Flujo de trabajo automatizado y aplicación completa, incluyendo backend y UI. |
@@ -93,6 +86,13 @@ Explicación de un modelo de trabajo en el que las *features* se documentarán e
 ---
 
 ## Sesión 4
+
+### MCP
+
+- Concepto de MCP y necesidad de ampliar las capacidades del agente mediante herramientas y fuentes de información externas.
+- Configuración de servidores MCP en OpenCode.
+- Utilización de MCP dentro del flujo de trabajo.
+- Implementación de las *features* correspondientes a la UI con la asistencia de MCP.
 
 ### Implementación de un agente para el análisis de datos
 
@@ -102,8 +102,16 @@ Planteamiento de una necesidad de negocio que requiera obtener información de l
 - Diseño de una arquitectura basada en un agente y herramientas externas.
 - Diseño e implementación de un servidor MCP para la extracción de datos.
 - Incorporación de capacidades de análisis al agente.
-- Diseño e implementación de una herramienta para la presentación de los resultados.
+- 
 - Utilización del agente para realizar el análisis y obtener información a partir de los datos.
+
+| Tema                                                                                   | Artefacto                                                                        |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| ¿Hasta dónde podemos extender el uso del agente fuera del desarrollo de la aplicación? | Agente de análisis de datos con acceso a las fuentes de información del sistema. |
+
+---
+
+## Sesión 5
 
 ### Aprovisionamiento y despliegue
 
@@ -115,14 +123,6 @@ Aplicación de las herramientas y conceptos trabajados en las sesiones anteriore
 - Automatización del proceso de construcción y despliegue de la aplicación.
 - Integración del despliegue en el flujo de trabajo del proyecto.
 - Análisis de la capacidad del agente para trabajar sobre sistemas que van más allá del código de la aplicación.
-
-| Tema                                                                                   | Artefacto                                                                                                                                                            |
-| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ¿Hasta dónde podemos extender el uso del agente fuera del desarrollo de la aplicación? | Aplicación desplegada automáticamente e infraestructura gestionada mediante código. Agente de análisis de datos con acceso a las fuentes de información del sistema. |
-
----
-
-## Sesión 5
 
 ### Troubleshooting y observabilidad
 
@@ -136,6 +136,6 @@ Aplicación del agente al diagnóstico y resolución de problemas sobre un siste
 - Utilización del agente como asistente para el diagnóstico de problemas.
 - Relación entre observabilidad, troubleshooting y ciclo de desarrollo.
 
-| Tema                                                                                | Artefacto                                                                                                 |
-| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| ¿Cómo utilizamos un agente para entender y solucionar problemas en un sistema real? | Sistema desplegado con observabilidad básica y un flujo de generación, detección y análisis de problemas. |
+| Tema                                                                                | Artefacto                                                                                                                                                                                     |
+| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Cómo utilizamos un agente para entender y solucionar problemas en un sistema real? | Aplicación desplegada automáticamente e infraestructura gestionada mediante código. Sistema desplegado con observabilidad básica y un flujo de generación, detección y análisis de problemas. |
