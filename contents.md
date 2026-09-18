@@ -113,29 +113,16 @@ Planteamiento de una necesidad de negocio que requiera obtener información de l
 
 ## Sesión 5
 
-### Aprovisionamiento y despliegue
+### Operación y evolución de una aplicación desplegada
 
-Aplicación de las herramientas y conceptos trabajados en las sesiones anteriores para extender el uso del agente al ciclo de vida de despliegue de la aplicación.
+Aplicación de las herramientas y conceptos trabajados en las sesiones anteriores sobre una aplicación desplegada.
 
-- Descripción de la infraestructura necesaria para ejecutar la aplicación.
-- Definición del aprovisionamiento de la infraestructura como código.
-- Utilización del agente para analizar, diseñar e implementar la infraestructura.
-- Automatización del proceso de construcción y despliegue de la aplicación.
-- Integración del despliegue en el flujo de trabajo del proyecto.
-- Análisis de la capacidad del agente para trabajar sobre sistemas que van más allá del código de la aplicación.
+- Comprensión de la arquitectura y del entorno de ejecución de la aplicación.
+- Utilización del agente para modificar y actualizar la aplicación.
+- Automatización del proceso de construcción y despliegue mediante CI/CD.
+- Utilización del agente para investigar y solucionar problemas en el sistema desplegado.
+- Análisis de las posibilidades y límites del uso de agentes en sistemas reales.
 
-### Troubleshooting y observabilidad
-
-Aplicación del agente al diagnóstico y resolución de problemas sobre un sistema desplegado.
-
-- Concepto de observabilidad y principales fuentes de información: logs, métricas y trazas.
-- Instrumentación básica de la aplicación para obtener información útil para el diagnóstico.
-- Generación de tráfico y situaciones controladas que permitan observar el comportamiento del sistema.
-- Recogida y visualización de métricas mediante herramientas de observabilidad.
-- Análisis de errores y anomalías a partir de la información disponible.
-- Utilización del agente como asistente para el diagnóstico de problemas.
-- Relación entre observabilidad, troubleshooting y ciclo de desarrollo.
-
-| Tema                                                                                | Artefacto                                                                                                                                                                                     |
-| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ¿Cómo utilizamos un agente para entender y solucionar problemas en un sistema real? | Aplicación desplegada automáticamente e infraestructura gestionada mediante código. Sistema desplegado con observabilidad básica y un flujo de generación, detección y análisis de problemas. |
+| Tema / Artefacto                                                                     |                                                                                                                                    |
+| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Cómo utilizamos un agente para trabajar el proceso de despliegue de una aplicación? | Aplicación desplegada mediante un flujo automatizado y utilización del agente para modificar, desplegar y diagnosticar el sistema. |
